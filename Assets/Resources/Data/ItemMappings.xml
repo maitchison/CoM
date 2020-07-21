@@ -1,0 +1,179 @@
+<!-- 
+
+Additional information used during Mordor MDATA import.
+This file contains mappings used to pick an appropriate icon for each item in the Mordor Game.
+
+ -->
+
+<ItemMappings>
+
+	<!-- Fallback icons for item types -->
+
+	<ItemType Name="Hands" 		Icon="248" />
+	<ItemType Name="Dagger" 	Icon="160" />
+	<ItemType Name="Cross" 		Icon="410" />
+	<ItemType Name="Sword" 		Icon="596" />
+	<ItemType Name="Staff" 		Icon="550" />
+	<ItemType Name="Mace" 		Icon="262" />
+	<ItemType Name="Axe" 		Icon="070" />
+	<ItemType Name="Hammer" 	Icon="220" />
+	<ItemType Name="Leather Armor" Icon="012" />
+	<ItemType Name="Chain Armor" Icon="005" />
+	<ItemType Name="Plate Armor" Icon="026" />
+	<ItemType Name="Shield" 	Icon="522" />
+	<ItemType Name="Cap" 		Icon="121" />
+	<ItemType Name="Helmet" 	Icon="123" />
+	<ItemType Name="Gloves" 	Icon="212" />
+	<ItemType Name="Gauntlets" 	Icon="213" />
+	<ItemType Name="Cloak" 		Icon="125" />
+	<ItemType Name="Bracers" 	Icon="737" />
+	<ItemType Name="Sash" 		Icon="539" />
+	<ItemType Name="Belt" 		Icon="079" />
+	<ItemType Name="Boots" 		Icon="098" /> 
+	<ItemType Name="Ring" 		Icon="360" />
+	<ItemType Name="Amulet" 	Icon="283" />
+	<ItemType Name="Potion" 	Icon="304" />
+	<ItemType Name="Scroll" 	Icon="414" />
+	<ItemType Name="Tome" 		Icon="704" />
+	<ItemType Name="Dust" 		Icon="000" />
+
+	<ItemType Name="Crystal"	Icon="155" />
+	<ItemType Name="Rod" 		Icon="388" />
+	<ItemType Name="Sphere" 	Icon="253" />
+	<ItemType Name="Cube" 		Icon="000" />
+	<ItemType Name="Stone" 		Icon="000" />
+	<ItemType Name="Artifact" 	Icon="000" />
+	<ItemType Name="Misc Item" 	Icon="208" />
+
+	<!-- Icons for specific items -->
+
+	<!-- Weapon -->
+
+
+	<Item Name="Gnarled Hands" 	Icon="212" ColorTransform="Faded"/>			<!--- not great -->
+	<Item Name="Initiate's Hands" Icon="213" ColorTransform="Saphire"/>			<!--- not great -->
+
+	<Item Name="Leather Cap" 	Icon="121" />
+	<Item Name="Padded Leather Cap" Icon="122" />
+	<Item Name="Cap of Defense" Icon="121"  ColorTransform="Saphire" />
+	<Item Name="Copper Helm" 	Icon="123" ColorTransform="Saphire" />
+	<Item Name="Bronze Helmet" 	Icon="124" ColorTransform="Bronze"/>
+	<Item Name="Iron Helmet" 	Icon="124"/>
+	
+
+	<Item Name="Bone Dagger" 	Icon="159" ColorTransform="Faded"/>
+	<Item Name="Bronze Dagger" 	Icon="673" />
+	<Item Name="Iron Dagger" 	Icon="160"/>
+	<Item Name="Lethe Dagger" 	Icon="165"/>
+
+	<Item Name="Cross of Redemption" 	Icon="577" ColorTransform="Bronze"/>
+	<Item Name="Bronze Sword" 	Icon="577" ColorTransform="Bronze"/>
+	<Item Name="Bronze Sword" 	Icon="577" ColorTransform="Bronze"/>
+
+	<Item Name="Cross of Redemption" Icon="411" />
+	<Item Name="Silver Cross" Icon="412" />
+
+
+	<Item Name="Bronze Sword" 	Icon="672" />
+	<Item Name="Iron Sword" 	Icon="596" />
+	<Item Name="Theif Sword" 	Icon="605" />
+	<Item Name="Katana" 		Icon="611" />
+	<Item Name="Cutlass" 		Icon="608" />
+	<Item Name="Sword of the Winds" Icon="594"  ColorTransform="Saphire"/>
+	<Item Name="Backlash Sword" Icon="618" />
+	<Item Name="Wicked Blade" Icon="583" />
+
+
+	<Item Name="Gordu Staff" Icon="563" ColorTransform="Faded" />
+	<Item Name="Staff of Alton" Icon="564" ColorTransform="Saphire" />
+	<Item Name="Pine Staff" Icon="563" />
+	<Item Name="Oak Staff" Icon="564" />
+	<Item Name="Iron-shod Staff" Icon="544" />
+
+	<Item Name="Bronze Mace" Icon="263" />
+	<Item Name="Icon Mace" Icon="262" />
+	<Item Name="Mace of Kordul" Icon="264" />
+
+	<!-- Shield -->
+
+	<Item Name="Wood Shield" 	Icon="526" />
+	<Item Name="Bronze Shield"	Icon="506" ColorTransform="Bronze" />
+	<Item Name="Iron Shield" 	Icon="522" />
+
+	<!-- Armour -->
+	<Item Name="Bronze Bracers"	Icon="736" />
+
+
+	<Item Name="Leather Boots" Icon="098" />
+	<Item Name="Boots of Lethargy" Icon="096" ColorTransform="Faded" />
+	<Item Name="Boots of Swiftness" Icon="096" />
+		
+	<Item Name="Leather Girdle" Icon="079" />
+	<Item Name="Girdle of Strength" Icon="080" />
+
+
+	<Item Name="Feather Leather Armor" Icon="014" ColorTransform="Faded"/>
+	<Item Name="Leather Armour" Icon="012" />
+	<Item Name="Padded Leather Armor" Icon="009" />
+	<Item Name="Suede Leather Armor" Icon="013" />
+	<Item Name="Studded Leather Armor" Icon="01" />
+
+	<Item Name="Bronze Chain Mail" Icon="001" ColorTransform="Bronze"/>
+	<Item Name="Iron Chain Mail" Icon="002" />
+
+	<Item Name="Bronze Plate Mail" Icon="026" ColorTransform="Bronze"/>
+	<Item Name="Iron Plate Mail" Icon="027" />
+
+	<Item Name="Glowing Rock" Icon="253" />
+	<Item Name="Lodestone" Icon="254" />
+
+    <Item Name="Ball and Chain" Icon="738"/>
+
+	<!-- Potions -->
+
+	<Item ID="172" Icon="292"/>
+	<Item ID="173" Icon="293"/>
+	<Item ID="174" Icon="294"/>
+	<Item ID="175" Icon="295"/>
+	<Item ID="176" Icon="296"/>
+	<Item ID="177" Icon="297"/>
+	<Item ID="178" Icon="298"/>
+	<Item ID="179" Icon="299"/>
+	<Item ID="180" Icon="300"/>
+	<Item ID="181" Icon="301"/>
+	<Item ID="182" Icon="302"/>
+	<Item ID="183" Icon="303"/>
+	<Item ID="184" Icon="304"/>
+	<Item ID="185" Icon="305"/>
+	<Item ID="186" Icon="306"/>
+	<Item ID="187" Icon="307"/>
+	<Item ID="188" Icon="308"/>
+	<Item ID="189" Icon="309"/>
+	<Item ID="190" Icon="310"/>
+	<Item ID="191" Icon="311"/>
+
+	<!-- Scrolls -->
+
+	<Item ID="197" Icon="414"/>
+	<Item ID="198" Icon="415"/>
+	<Item ID="199" Icon="416"/>
+	<Item ID="200" Icon="417"/>
+	<Item ID="201" Icon="418"/>
+	<Item ID="202" Icon="419"/>
+	<Item ID="203" Icon="420"/>
+	<Item ID="204" Icon="421"/>
+	<Item ID="205" Icon="422"/>
+	<Item ID="206" Icon="423"/>
+	<Item ID="207" Icon="424"/>
+
+	<!---Tomes -->
+
+	<Item Name="Tome of Insight" Icon="707"/>
+	<Item Name="Tome of Endurance" Icon="708"/>
+	<Item Name="Tome of Might" Icon="705" />
+	<Item Name="Tome of Learning" Icon="704" />
+	<Item Name="Tome of Agility" Icon="706"/>
+	<Item Name="Tome of Leadership" Icon="709"/>
+	<Item Name="Tome of Lies" Icon="704" /> 
+
+</ItemMappings>

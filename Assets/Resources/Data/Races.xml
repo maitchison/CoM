@@ -1,0 +1,47 @@
+<RaceLibrary Version="1.0">
+  <Race ID="0" Name="Human">
+    <DefaultStats>10,10,10,10,12,10</DefaultStats>
+    <Size>2</Size>
+    <BonusPoints>5</BonusPoints>
+    <ExperianceFactor>3</ExperianceFactor>
+    <StartingHP>20</StartingHP>
+    <StartingSP>30</StartingSP>
+    <Resistances>0,0,0,0,0,0,0,0,0,0,0</Resistances>
+  </Race>
+  <Race ID="1" Name="Elf">
+    <DefaultStats>7,15,12,6,12,12</DefaultStats>
+    <Size>2</Size>
+    <BonusPoints>3</BonusPoints>
+    <ExperianceFactor>7</ExperianceFactor>
+    <StartingHP>15</StartingHP>
+    <StartingSP>50</StartingSP>
+    <Resistances>0,0,0,50,0,0,80,0,0,0,0</Resistances>
+  </Race>
+  <Race ID="2" Name="Giant">
+    <DefaultStats>17,8,8,15,8,8</DefaultStats>
+    <Size>4</Size>
+    <BonusPoints>3</BonusPoints>
+    <ExperianceFactor>7</ExperianceFactor>
+    <StartingHP>25</StartingHP>
+    <StartingSP>12</StartingSP>
+    <Resistances>50,50,50,0,50,50,0,25,50,50,0</Resistances>
+  </Race>
+  <Race ID="3" Name="Halfling">
+    <DefaultStats>8,11,12,8,10,15</DefaultStats>
+    <Size>1</Size>
+    <BonusPoints>3</BonusPoints>
+    <ExperianceFactor>7</ExperianceFactor>
+    <StartingHP>14</StartingHP>
+    <StartingSP>22</StartingSP>
+    <Resistances>0,0,0,40,0,0,0,0,0,0,0</Resistances>
+  </Race>
+  <Race ID="4" Name="Dwarf">
+    <DefaultStats>14,9,10,13,8,10</DefaultStats>
+    <Size>1</Size>
+    <BonusPoints>3</BonusPoints>
+    <ExperianceFactor>5</ExperianceFactor>
+    <StartingHP>22</StartingHP>
+    <StartingSP>15</StartingSP>
+    <Resistances>45,80,0,0,50,50,0,40,50,90,0</Resistances>
+  </Race>
+</RaceLibrary>

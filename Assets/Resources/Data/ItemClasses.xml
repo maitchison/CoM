@@ -1,0 +1,94 @@
+<ItemClassLibrary Version="1.0">
+  <ItemClass ID="0" Name="Weapon">
+    <Location>RightHand</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="1" Name="Armour">
+    <Location>Body</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="2" Name="Shield">
+    <Location>LeftHand</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="3" Name="Head Gear">
+    <Location>Head</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="4" Name="Hand Protection">
+    <Location>Hands</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="5" Name="_Removed[5]">
+    <Location>None</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="6" Name="Footwear">
+    <Location>Feet</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="7" Name="_Arm Protection">
+    <Location>None</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="8" Name="Cloak">
+    <Location>Back</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="9" Name="Ring">
+    <Location>Finger</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="10" Name="Potion">
+    <Location>None</Location>
+    <Usable>True</Usable>
+  </ItemClass>
+  <ItemClass ID="11" Name="Dust">
+    <Location>None</Location>
+    <Usable>True</Usable>
+  </ItemClass>
+  <ItemClass ID="12" Name="Scroll">
+    <Location>None</Location>
+    <Usable>True</Usable>
+  </ItemClass>
+  <ItemClass ID="13" Name="Book">
+    <Location>None</Location>
+    <Usable>True</Usable>
+  </ItemClass>
+  <ItemClass ID="15" Name="Necklace">
+    <Location>Neck</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="16" Name="Sphere">
+    <Location>None</Location>
+    <Usable>True</Usable>
+  </ItemClass>
+  <ItemClass ID="17" Name="Cube">
+    <Location>None</Location>
+    <Usable>True</Usable>
+  </ItemClass>
+  <ItemClass ID="18" Name="Belt">
+    <Location>Waist</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="19" Name="Artifact">
+    <Location>Misc</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="20" Name="Element">
+    <Location>None</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="21" Name="Object">
+    <Location>None</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="22" Name="Crest">
+    <Location>None</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+  <ItemClass ID="23" Name="Miscellaneous">
+    <Location>None</Location>
+    <Usable>False</Usable>
+  </ItemClass>
+</ItemClassLibrary>

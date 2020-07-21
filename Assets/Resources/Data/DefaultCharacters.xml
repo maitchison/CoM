@@ -1,0 +1,586 @@
+<CharacterLibrary Version="1.0">
+  <Character ID="6" Name="Vallen">
+    <Race>Human</Race>
+    <BaseStats str="13" dex="10" int="10" wis="10" chr="12" con="12" />
+    <LocationX>9</LocationX>
+    <LocationY>11</LocationY>
+    <Depth>0</Depth>
+    <Facing>0</Facing>
+    <TotalXP>0</TotalXP>
+    <Age>16.0027397260274</Age>
+    <PlayTime>194</PlayTime>
+    <Deaths>0</Deaths>
+    <MonstersKilled>0</MonstersKilled>
+    <Hits>15</Hits>
+    <MaxHits>15</MaxHits>
+    <Status>Normal</Status>
+    <PoisonLevel>0</PoisonLevel>
+    <DiseaseLevel>0</DiseaseLevel>
+    <ParalysisLevel>0</ParalysisLevel>
+    <TimeInWater>0</TimeInWater>
+    <Spells>100</Spells>
+    <MaxSpells>100</MaxSpells>
+    <Gold>500</Gold>
+    <GoldInBank>0</GoldInBank>
+    <PortraitID>164</PortraitID>
+    <Buffers Default="0">
+      <Action>Fight</Action>
+      <Action>Defend</Action>
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+    </Buffers>
+    <Equiped>
+      <Slot />
+      <Slot>701</Slot>
+      <Slot>401</Slot>
+      <Slot>1102</Slot>
+      <Slot>106</Slot>
+      <Slot>1605</Slot>
+      <Slot>601</Slot>
+      <Slot>201</Slot>
+      <Slot>501</Slot>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </Equiped>
+    <Inventory>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </Inventory>
+    <BankItems>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </BankItems>
+    <Followers>7,8,9</Followers>
+    <Membership>
+      <CurrentGuild>Adventurer</CurrentGuild>
+      <Guild GuildName="Adventurer" XP="0" CurrentLevel="1" HasQuest="0" />
+    </Membership>
+  </Character>
+  <Character ID="7" Name="Tommus">
+    <Race>Giant</Race>
+    <BaseStats str="17" dex="8" int="8" wis="8" chr="8" con="18" />
+    <LocationX>9</LocationX>
+    <LocationY>11</LocationY>
+    <Depth>0</Depth>
+    <Facing>0</Facing>
+    <TotalXP>7</TotalXP>
+    <Age>16.0383561643836</Age>
+    <PlayTime>194</PlayTime>
+    <Deaths>0</Deaths>
+    <MonstersKilled>0</MonstersKilled>
+    <Hits>15</Hits>
+    <MaxHits>15</MaxHits>
+    <Status>Normal</Status>
+    <PoisonLevel>0</PoisonLevel>
+    <DiseaseLevel>0</DiseaseLevel>
+    <ParalysisLevel>0</ParalysisLevel>
+    <TimeInWater>0</TimeInWater>
+    <Spells>100</Spells>
+    <MaxSpells>100</MaxSpells>
+    <Gold>500</Gold>
+    <GoldInBank>0</GoldInBank>
+    <PortraitID>20</PortraitID>
+    <Buffers Default="0">
+      <Action>Fight</Action>
+      <Action>Defend</Action>
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+    </Buffers>
+    <Equiped>
+      <Slot />
+      <Slot>701</Slot>
+      <Slot>401</Slot>
+      <Slot>1102</Slot>
+      <Slot>106</Slot>
+      <Slot>1301</Slot>
+      <Slot />
+      <Slot>201</Slot>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </Equiped>
+    <Inventory>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </Inventory>
+    <BankItems>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </BankItems>
+    <Followers></Followers>
+    <Membership>
+      <CurrentGuild>Adventurer</CurrentGuild>
+      <Guild GuildName="Adventurer" XP="0" CurrentLevel="1" HasQuest="0" />
+    </Membership>
+  </Character>
+  <Character ID="8" Name="Wilron">
+    <Race>Halfling</Race>
+    <BaseStats str="8" dex="17" int="12" wis="12" chr="10" con="8" />
+    <LocationX>9</LocationX>
+    <LocationY>11</LocationY>
+    <Depth>0</Depth>
+    <Facing>0</Facing>
+    <TotalXP>14</TotalXP>
+    <Age>16</Age>
+    <PlayTime>194</PlayTime>
+    <Deaths>0</Deaths>
+    <MonstersKilled>0</MonstersKilled>
+    <Hits>15</Hits>
+    <MaxHits>15</MaxHits>
+    <Status>Normal</Status>
+    <PoisonLevel>0</PoisonLevel>
+    <DiseaseLevel>0</DiseaseLevel>
+    <ParalysisLevel>0</ParalysisLevel>
+    <TimeInWater>0</TimeInWater>
+    <Spells>120</Spells>
+    <MaxSpells>120</MaxSpells>
+    <Gold>500</Gold>
+    <GoldInBank>0</GoldInBank>
+    <PortraitID>22</PortraitID>
+    <Buffers Default="0">
+      <Action>Fight</Action>
+      <Action>Defend</Action>
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+    </Buffers>
+    <Equiped>
+      <Slot />
+      <Slot>701</Slot>
+      <Slot>401</Slot>
+      <Slot />
+      <Slot>103</Slot>
+      <Slot>1301</Slot>
+      <Slot>604</Slot>
+      <Slot>201</Slot>
+      <Slot>501</Slot>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </Equiped>
+    <Inventory>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </Inventory>
+    <BankItems>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </BankItems>
+    <Followers></Followers>
+    <Membership>
+      <CurrentGuild>Adventurer</CurrentGuild>
+      <Guild GuildName="Adventurer" XP="0" CurrentLevel="1" HasQuest="0" />
+    </Membership>
+  </Character>
+  <Character ID="9" Name="Quaven">
+    <Race>Elf</Race>
+    <BaseStats str="7" dex="12" int="17" wis="13" chr="12" con="6" />
+    <LocationX>9</LocationX>
+    <LocationY>11</LocationY>
+    <Depth>0</Depth>
+    <Facing>0</Facing>
+    <TotalXP>21</TotalXP>
+    <Age>16.0602739726027</Age>
+    <PlayTime>194</PlayTime>
+    <Deaths>0</Deaths>
+    <MonstersKilled>1</MonstersKilled>
+    <Hits>15</Hits>
+    <MaxHits>15</MaxHits>
+    <Status>Normal</Status>
+    <PoisonLevel>0</PoisonLevel>
+    <DiseaseLevel>0</DiseaseLevel>
+    <ParalysisLevel>0</ParalysisLevel>
+    <TimeInWater>0</TimeInWater>
+    <Spells>150</Spells>
+    <MaxSpells>150</MaxSpells>
+    <Gold>500</Gold>
+    <GoldInBank>0</GoldInBank>
+    <PortraitID>19</PortraitID>
+    <Buffers Default="0">
+      <Action>Fight</Action>
+      <Action>Defend</Action>
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+      <Action />
+    </Buffers>
+    <Equiped>
+      <Slot />
+      <Slot>701</Slot>
+      <Slot>401</Slot>
+      <Slot />
+      <Slot>103</Slot>
+      <Slot>1601</Slot>
+      <Slot>604</Slot>
+      <Slot>201</Slot>
+      <Slot>501</Slot>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </Equiped>
+    <Inventory>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </Inventory>
+    <BankItems>
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+      <Slot />
+    </BankItems>
+    <Followers></Followers>
+    <Membership>
+      <CurrentGuild>Adventurer</CurrentGuild>
+      <Guild GuildName="Adventurer" XP="0" CurrentLevel="1" HasQuest="0" />
+    </Membership>
+  </Character>
+</CharacterLibrary>

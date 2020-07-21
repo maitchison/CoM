@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{60F4D86B-F083-DDFD-823B-D089B8610DE0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_3;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_WEBGL;UNITY_WEBGL_API;ENABLE_TEXTUREID_MAP;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity 5.1.3/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity 5.1.3/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\GammaFixerForLights.cs" />
+     <Compile Include="Assets\InfoManager.cs" />
+     <Compile Include="Assets\LoadingScreen.cs" />
+     <Compile Include="Assets\ResourceManager.cs" />
+     <Compile Include="Assets\Retro Pixel\Scripts\RetroPixel.cs" />
+     <Compile Include="Assets\SMAA\Scripts\DebugPass.cs" />
+     <Compile Include="Assets\SMAA\Scripts\EdgeDetectionMethod.cs" />
+     <Compile Include="Assets\SMAA\Scripts\HDRMode.cs" />
+     <Compile Include="Assets\SMAA\Scripts\MinAttribute.cs" />
+     <Compile Include="Assets\SMAA\Scripts\PredicationPreset.cs" />
+     <Compile Include="Assets\SMAA\Scripts\Preset.cs" />
+     <Compile Include="Assets\SMAA\Scripts\QualityPreset.cs" />
+     <Compile Include="Assets\SMAA\Scripts\SMAA.cs" />
+     <Compile Include="Assets\SSAO Pro\Scripts\SSAOPro.cs" />
+     <Compile Include="Assets\Scripts\BlurControl.cs" />
+     <Compile Include="Assets\Scripts\CoM.cs" />
+     <Compile Include="Assets\Scripts\Data\AStar.cs" />
+     <Compile Include="Assets\Scripts\Data\Compressor.cs" />
+     <Compile Include="Assets\Scripts\Data\DataLibrary.cs" />
+     <Compile Include="Assets\Scripts\Data\DataObject.cs" />
+     <Compile Include="Assets\Scripts\Data\Engine.cs" />
+     <Compile Include="Assets\Scripts\Data\GameStats.cs" />
+     <Compile Include="Assets\Scripts\Data\SaveFile.cs" />
+     <Compile Include="Assets\Scripts\Data\SimpleMap.cs" />
+     <Compile Include="Assets\Scripts\Data\SpriteLibrary.cs" />
+     <Compile Include="Assets\Scripts\Data\UserProfile.cs" />
+     <Compile Include="Assets\Scripts\Data\WeightedTable.cs" />
+     <Compile Include="Assets\Scripts\DebugTools\DebugItemDropRates.cs" />
+     <Compile Include="Assets\Scripts\DebugTools\DebugMonster.cs" />
+     <Compile Include="Assets\Scripts\DisableIfNotMoving.cs" />
+     <Compile Include="Assets\Scripts\DoorHider.cs" />
+     <Compile Include="Assets\Scripts\DungeonBuilder.cs" />
+     <Compile Include="Assets\Scripts\Engines\CombatEngine.cs" />
+     <Compile Include="Assets\Scripts\Engines\LootEngine.cs" />
+     <Compile Include="Assets\Scripts\Furnishing.cs" />
+     <Compile Include="Assets\Scripts\InputEx.cs" />
+     <Compile Include="Assets\Scripts\Mordor\Importers\CharacterImporter.cs" />
+     <Compile Include="Assets\Scripts\Mordor\Importers\DungeonImporter.cs" />
+     <Compile Include="Assets\Scripts\Mordor\Importers\GuildImporter.cs" />
+     <Compile Include="Assets\Scripts\Mordor\Importers\ImporterTemplate.cs" />
+     <Compile Include="Assets\Scripts\Mordor\Importers\ItemImporter.cs" />
+     <Compile Include="Assets\Scripts\Mordor\Importers\MonsterImporter.cs" />
+     <Compile Include="Assets\Scripts\Mordor\Importers\RaceImporter.cs" />
+     <Compile Include="Assets\Scripts\Mordor\Importers\SpellImporter.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRAction.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRActor.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRAlignment.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRArea.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRCharacter.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRDirection.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRDungeon.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRFileReader.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRGender.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRGuild.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRInventory.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRItem.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRItemInstance.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRItemReference.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRLocation.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRMap.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRMembership.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRMonster.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRMonsterStack.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRParty.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRRace.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRSkill.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRSpell.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRStats.cs" />
+     <Compile Include="Assets\Scripts\Mordor\MDRStore.cs" />
+     <Compile Include="Assets\Scripts\PushOpenDoor.cs" />
+     <Compile Include="Assets\Scripts\RemoveHeightmapFromMaterial.cs" />
+     <Compile Include="Assets\Scripts\RenderDecoupler.cs" />
+     <Compile Include="Assets\Scripts\TextureSwapper.cs" />
+     <Compile Include="Assets\Scripts\UI\Character\GuiCharacterEquipPage.cs" />
+     <Compile Include="Assets\Scripts\UI\Character\GuiCharacterPage.cs" />
+     <Compile Include="Assets\Scripts\UI\Character\GuiCharacterSpellsPage.cs" />
+     <Compile Include="Assets\Scripts\UI\Character\GuiCharacterStatsPage.cs" />
+     <Compile Include="Assets\Scripts\UI\Character\GuiCharacterTabControl.cs" />
+     <Compile Include="Assets\Scripts\UI\DDSlot.cs" />
+     <Compile Include="Assets\Scripts\UI\DragDrop\DDContainer.cs" />
+     <Compile Include="Assets\Scripts\UI\DragDrop\DDDragDrop.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GameState.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiButton.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiCallout.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiComponent.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiContainer.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiFillRect.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiImage.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiImageButton.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiLabel.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiLabeledComponent.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiListBox.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiMessageBox.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiNotification.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiOpenCloseButton.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiPictureSelector.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiProgressBar.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiRadioButtonGroup.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiScrollableArea.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiSlider.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiTabControl.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiTabPage.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiTextField.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiTimer.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiToggleButton.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\GuiWindow.cs" />
+     <Compile Include="Assets\Scripts\UI\Generic\ModalState.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiAction.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiActionBar.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiAreaInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiCoinsAmount.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiFadingImage.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiFadingLabel.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiGold.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiMap.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiPartyInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiSpellCast.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiSpellSelection.cs" />
+     <Compile Include="Assets\Scripts\UI\GuiStatAdjustment.cs" />
+     <Compile Include="Assets\Scripts\UI\InfoCallouts\GuiItemInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\InfoCallouts\GuiMonsterInfo.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\GuiInspectionSlot.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\GuiItem.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\GuiItemInventory.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory\GuiItemSlot.cs" />
+     <Compile Include="Assets\Scripts\UI\SmartUI.cs" />
+     <Compile Include="Assets\Scripts\UI\State\AllPartyMembersDeadState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\CombatLogState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Debug\DebugMonsterState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Debug\DebugUIState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\DungeonState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Menu\AboutMenuState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Menu\CreateCharacterState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Menu\DebugMenuState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Menu\InGameMenuState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Menu\LoadingState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Menu\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Menu\MenuDungeonBackground.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Menu\SelectCharacterState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Menu\SettingsMenuState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Town\BankState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Town\GuildState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Town\LibraryState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Town\StoreState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Town\TempleState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Town\TownBuildingState.cs" />
+     <Compile Include="Assets\Scripts\UI\State\Town\TownState.cs" />
+     <Compile Include="Assets\Scripts\UI\Store\GuiSellItemArea.cs" />
+     <Compile Include="Assets\Scripts\UI\Store\GuiStore.cs" />
+     <Compile Include="Assets\Scripts\UI\Store\GuiStoreListing.cs" />
+     <Compile Include="Assets\Scripts\Unity\AutoScale.cs" />
+     <Compile Include="Assets\Scripts\Unity\Benchmark.cs" />
+     <Compile Include="Assets\Scripts\Unity\DelayedDelegate.cs" />
+     <Compile Include="Assets\Scripts\Unity\DoorScript.cs" />
+     <Compile Include="Assets\Scripts\Unity\EnvironmentManager.cs" />
+     <Compile Include="Assets\Scripts\Unity\FadeLightOn.cs" />
+     <Compile Include="Assets\Scripts\Unity\FlickerLight.cs" />
+     <Compile Include="Assets\Scripts\Unity\GridReference.cs" />
+     <Compile Include="Assets\Scripts\Unity\PartyController.cs" />
+     <Compile Include="Assets\Scripts\Unity\RandomColor.cs" />
+     <Compile Include="Assets\Scripts\Unity\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Unity\WorldUV.cs" />
+     <Compile Include="Assets\Scripts\Util\CharacterNameGenerator.cs" />
+     <Compile Include="Assets\Scripts\Util\ColorTransform.cs" />
+     <Compile Include="Assets\Scripts\Util\Colors.cs" />
+     <Compile Include="Assets\Scripts\Util\DebugHelper.cs" />
+     <Compile Include="Assets\Scripts\Util\DrawParameters.cs" />
+     <Compile Include="Assets\Scripts\Util\GameRules.cs" />
+     <Compile Include="Assets\Scripts\Util\Mouse.cs" />
+     <Compile Include="Assets\Scripts\Util\ProcessSpriteSheet.cs" />
+     <Compile Include="Assets\Scripts\Util\Settings.cs" />
+     <Compile Include="Assets\Scripts\Util\SmoothFPSCounter.cs" />
+     <Compile Include="Assets\Scripts\Util\StateStorage.cs" />
+     <Compile Include="Assets\Scripts\Util\StockTexture.cs" />
+     <Compile Include="Assets\Scripts\Util\TextureMagic.cs" />
+     <Compile Include="Assets\Scripts\Util\Util.cs" />
+     <Compile Include="Assets\Scripts\Util\VersionInfo.cs" />
+     <Compile Include="Assets\Scripts\VertexDisplacement.cs" />
+     <Compile Include="Assets\TestMemoryAllocator.cs" />
+     <Compile Include="Assets\WebServer.cs" />
+     <None Include="Assets\Shaders\GUI-Solid.shader" />
+     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel8.shader" />
+     <None Include="Assets\SSAO Pro\Readme.txt" />
+     <None Include="Assets\Resources\Data\ItemTypes.xml" />
+     <None Include="Assets\Resources\version.txt" />
+     <None Include="Assets\Shaders\VertexColor.shader" />
+     <None Include="Assets\Shaders\GUI-Default.shader" />
+     <None Include="Assets\Resources\Data\DefaultParty.xml" />
+     <None Include="Assets\SSAO Pro\Resources\SSAOPro_v2.shader" />
+     <None Include="Assets\Shaders\GUI-Unlit-TextDetail.shader" />
+     <None Include="Assets\SMAA\Shaders\SMAA.shader" />
+     <None Include="Assets\Resources\Data\ItemMappings.xml" />
+     <None Include="Assets\Resources\Data\TestCharacters.xml" />
+     <None Include="Assets\SSAO Pro\Resources\SSAOPro_v1.shader" />
+     <None Include="Assets\Resources\Data\MonsterClasses.xml" />
+     <None Include="Assets\Resources\Data\MonsterTypes.xml" />
+     <None Include="Assets\Shaders\GUI-Unlit-Text.shader" />
+     <None Include="Assets\Shaders\GUI-ColorTransform.shader" />
+     <None Include="Assets\SSAO Pro\Changelog.txt" />
+     <None Include="Assets\SSAO Pro\Resources\SSAOPro.cginc" />
+     <None Include="Assets\Resources\Data\SpellClasses.xml" />
+     <None Include="Assets\Resources\Data\Skills.xml" />
+     <None Include="Assets\Resources\Data\Guilds.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\SMAA\Shaders\SMAA.cginc" />
+     <None Include="Assets\Resources\Data\SpellMappings.xml" />
+     <None Include="Assets\Shaders\GUI-Blurred.shader" />
+     <None Include="Assets\Resources\Data\Items.xml" />
+     <None Include="Assets\Resources\Data\ItemClasses.xml" />
+     <None Include="Assets\Resources\Data\Monsters.xml" />
+     <None Include="Assets\Resources\Data\Spells.xml" />
+     <None Include="Assets\Resources\Gfx\Portraits.xml" />
+     <None Include="Assets\Retro Pixel\Readme.txt" />
+     <None Include="Assets\codeandweb.com\Readme.txt" />
+     <None Include="Assets\Resources\Data\Races.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity 5.1.3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity 5.1.3/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity 5.1.3/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity 5.1.3/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{A741C839-BFA9-362A-C697-3FD8D32715D5}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

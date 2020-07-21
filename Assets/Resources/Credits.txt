@@ -1,0 +1,45 @@
+<color=yellow>Graphics</color>
+
+<B>User Interface Concept</B>
+Jorge Avila
+
+<B>Background Art</B>
+Sergei Churbanov (provided by William Thompson)
+Justin Nichol
+
+<B>Spell Icons</B>
+J. W. Bjerk
+<B>Item Icons</B>
+David E. Gervais
+
+<B>Fonts</B>
+Exljbris
+Google
+
+<color=yellow>Sound</color>
+
+<B>Music</B>
+HorrorPen
+Matthew Pablo
+Telaron
+
+<B>Sound FX</B>
+Brandon Morris
+Kenney.nl
+Orgebane
+Michel Baradari
+Qubodup
+TinyWorlds
+Snottyboi
+
+
+<color=yellow>With Thanks To</color>
+
+Highsight
+Michael Kahler
+
+
+
+
+
+

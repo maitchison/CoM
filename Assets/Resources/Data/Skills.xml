@@ -1,0 +1,108 @@
+<SkillsLibrary Version="1.0">
+  <Skill ID="0" Name="Fire Magic">
+    <Category>Magic</Category>
+    <LearningDifficulty>12</LearningDifficulty>
+    <Rankings>Fire Mage</Rankings>
+  </Skill>
+  <Skill ID="1" Name="Water Magic">
+    <Category>Magic</Category>
+    <LearningDifficulty>11</LearningDifficulty>
+    <Rankings>Water Mage</Rankings>
+  </Skill>
+  <Skill ID="2" Name="Electric Magic">
+    <Category>Magic</Category>
+    <LearningDifficulty>13</LearningDifficulty>
+    <Rankings>Lightning Mage</Rankings>
+  </Skill>
+  <Skill ID="3" Name="Arcane Magic">
+    <Category>Magic</Category>
+    <LearningDifficulty>9</LearningDifficulty>
+    <Rankings>Arcane Mage</Rankings>
+  </Skill>
+  <Skill ID="4" Name="Life Magic">
+    <Category>Magic</Category>
+    <LearningDifficulty>15</LearningDifficulty>
+    <Rankings>Healer</Rankings>
+  </Skill>
+  <Skill ID="9" Name="Light Armour">
+    <Category>Armour</Category>
+    <LearningDifficulty>9</LearningDifficulty>
+  </Skill>
+  <Skill ID="10" Name="Medium Armour">
+    <Category>Armour</Category>
+    <LearningDifficulty>10</LearningDifficulty>
+  </Skill>
+  <Skill ID="11" Name="Heavy Armour">
+    <Category>Armour</Category>
+    <LearningDifficulty>11</LearningDifficulty>
+  </Skill>
+  <Skill ID="14" Name="Unarmed Combat">
+    <Category>Combat</Category>
+    <LearningDifficulty>11</LearningDifficulty>
+  </Skill>
+  <Skill ID="15" Name="Backstabbing">
+    <Category>Combat</Category>
+    <LearningDifficulty>10</LearningDifficulty>
+  </Skill>
+  <Skill ID="16" Name="Critical Hit">
+    <Category>Combat</Category>
+    <LearningDifficulty>12</LearningDifficulty>
+  </Skill>
+  <Skill ID="17" Name="Multiple Swings">
+    <Category>Combat</Category>
+    <LearningDifficulty>12</LearningDifficulty>
+  </Skill>
+  <Skill ID="18" Name="Daggers">
+    <Category>Combat</Category>
+    <LearningDifficulty>8</LearningDifficulty>
+    <Rankings>Knife Master</Rankings>
+  </Skill>
+  <Skill ID="19" Name="Wands">
+    <Category>Combat</Category>
+    <LearningDifficulty>19</LearningDifficulty>
+    <Rankings>Wand Master</Rankings>
+  </Skill>
+  <Skill ID="20" Name="Swords">
+    <Category>Combat</Category>
+    <LearningDifficulty>10</LearningDifficulty>
+    <Rankings>Sword Master</Rankings>
+  </Skill>
+  <Skill ID="21" Name="Axes">
+    <Category>Combat</Category>
+    <LearningDifficulty>12</LearningDifficulty>
+    <Rankings>Axe Master</Rankings>
+  </Skill>
+  <Skill ID="22" Name="Staves">
+    <Category>Combat</Category>
+    <LearningDifficulty>9</LearningDifficulty>
+    <Rankings>Staff Master</Rankings>
+  </Skill>
+  <Skill ID="23" Name="Maces">
+    <Category>Combat</Category>
+    <LearningDifficulty>10</LearningDifficulty>
+    <Rankings>Mace Master</Rankings>
+  </Skill>
+  <Skill ID="24" Name="Hammers">
+    <Category>Combat</Category>
+    <LearningDifficulty>11</LearningDifficulty>
+    <Rankings>Hammer Master</Rankings>
+  </Skill>
+  <Skill ID="25" Name="Shields">
+    <Category>Combat</Category>
+    <LearningDifficulty>12</LearningDifficulty>
+    <Rankings>Shield Master</Rankings>
+  </Skill>
+  <Skill ID="28" Name="Lock picking">
+    <Category>General</Category>
+    <LearningDifficulty>10</LearningDifficulty>
+  </Skill>
+  <Skill ID="29" Name="Perception">
+    <Category>General</Category>
+    <LearningDifficulty>10</LearningDifficulty>
+  </Skill>
+  <Skill ID="30" Name="Law">
+    <Category>General</Category>
+    <LearningDifficulty>10</LearningDifficulty>
+    <Rankings>Scholar</Rankings>
+  </Skill>
+</SkillsLibrary>

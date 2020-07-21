@@ -1,0 +1,55 @@
+<MonsterClassLibrary Version="1.0">
+  <MonsterClass ID="0" Name="Humanoid">
+    <Notes>Common, rooms</Notes>
+  </MonsterClass>
+  <MonsterClass ID="1" Name="Muck">
+    <Notes>Rare, dead ends</Notes>
+  </MonsterClass>
+  <MonsterClass ID="2" Name="Demon">
+    <Notes>Rare</Notes>
+  </MonsterClass>
+  <MonsterClass ID="3" Name="Arachnid">
+    <Notes>Common, hallway</Notes>
+  </MonsterClass>
+  <MonsterClass ID="4" Name="Elemental">
+    <Notes>Rare</Notes>
+  </MonsterClass>
+  <MonsterClass ID="5" Name="Reptile">
+    <Notes>Rare</Notes>
+  </MonsterClass>
+  <MonsterClass ID="6" Name="Dragon">
+    <Notes>Very rare</Notes>
+  </MonsterClass>
+  <MonsterClass ID="7" Name="Animal">
+    <Notes>Common, hallway</Notes>
+  </MonsterClass>
+  <MonsterClass ID="8" Name="Insect">
+    <Notes>Common, hallway</Notes>
+  </MonsterClass>
+  <MonsterClass ID="9" Name="Undead">
+    <Notes>Rare</Notes>
+  </MonsterClass>
+  <MonsterClass ID="10" Name="Aquatic">
+    <Notes>Water</Notes>
+  </MonsterClass>
+  <MonsterClass ID="11" Name="Titan">
+    <Notes>Very rare</Notes>
+  </MonsterClass>
+  <MonsterClass ID="12" Name="Mythical">
+    <Notes>Rare</Notes>
+  </MonsterClass>
+  <MonsterClass ID="13" Name="Rodent">
+    <Notes>Common, hallway</Notes>
+  </MonsterClass>
+  <MonsterClass ID="14" Name="Thief">
+    <Notes>Common, hallway and rooms</Notes>
+  </MonsterClass>
+  <MonsterClass ID="15" Name="Mage">
+    <Notes>Rare</Notes>
+  </MonsterClass>
+  <MonsterClass ID="16" Name="Warrior">
+    <Notes>Rare</Notes>
+  </MonsterClass>
+  <MonsterClass ID="17" Name="Spare">
+  </MonsterClass>
+</MonsterClassLibrary>

@@ -1,0 +1,94 @@
+<ItemTypeLibrary Version="1.0">
+  <ItemType ID="0" Name="Fist">
+    <Class>Weapon</Class>
+  </ItemType>
+  <ItemType ID="1" Name="Dagger">
+    <Class>Weapon</Class>
+    <SkillRequired>Daggers</SkillRequired>
+  </ItemType>
+  <ItemType ID="2" Name="Wand">
+    <Class>Weapon</Class>
+    <SkillRequired>Wands</SkillRequired>
+  </ItemType>
+  <ItemType ID="3" Name="Sword">
+    <Class>Weapon</Class>
+    <SkillRequired>Swords</SkillRequired>
+  </ItemType>
+  <ItemType ID="4" Name="Staff">
+    <Class>Weapon</Class>
+    <SkillRequired>Staves</SkillRequired>
+  </ItemType>
+  <ItemType ID="5" Name="Mace">
+    <Class>Weapon</Class>
+    <SkillRequired>Maces</SkillRequired>
+  </ItemType>
+  <ItemType ID="6" Name="Axe">
+    <Class>Weapon</Class>
+    <SkillRequired>Axes</SkillRequired>
+  </ItemType>
+  <ItemType ID="7" Name="Hammer">
+    <Class>Weapon</Class>
+    <SkillRequired>Hammers</SkillRequired>
+  </ItemType>
+  <ItemType ID="8" Name="Cloth Armour">
+    <Class>Armour</Class>
+  </ItemType>
+  <ItemType ID="9" Name="Light Armour">
+    <Class>Armour</Class>
+    <SkillRequired>Light Armour</SkillRequired>
+  </ItemType>
+  <ItemType ID="10" Name="Medium Armour">
+    <Class>Armour</Class>
+    <SkillRequired>Medium Armour</SkillRequired>
+  </ItemType>
+  <ItemType ID="11" Name="Heavy Armour">
+    <Class>Armour</Class>
+    <SkillRequired>Heavy Armour</SkillRequired>
+  </ItemType>
+  <ItemType ID="12" Name="Shield">
+    <Class>Shield</Class>
+    <SkillRequired>Shields</SkillRequired>
+  </ItemType>
+  <ItemType ID="13" Name="Cap">
+    <Class>Head Gear</Class>
+    <SkillRequired>Light Armour</SkillRequired>
+  </ItemType>
+  <ItemType ID="14" Name="Helmet">
+    <Class>Head Gear</Class>
+    <SkillRequired>Medium Armour</SkillRequired>
+  </ItemType>
+  <ItemType ID="15" Name="Gloves">
+    <Class>Hand Protection</Class>
+    <SkillRequired>Light Armour</SkillRequired>
+  </ItemType>
+  <ItemType ID="16" Name="Gauntlets">
+    <Class>Hand Protection</Class>
+    <SkillRequired>Medium Armour</SkillRequired>
+  </ItemType>
+  <ItemType ID="17" Name="Cloak">
+    <Class>Cloak</Class>
+  </ItemType>
+  <ItemType ID="20" Name="Belt">
+    <Class>Belt</Class>
+  </ItemType>
+  <ItemType ID="21" Name="Boots">
+    <Class>Footwear</Class>
+  </ItemType>
+  <ItemType ID="22" Name="Ring">
+    <Class>Ring</Class>
+  </ItemType>
+  <ItemType ID="23" Name="Necklace">
+    <Class>Necklace</Class>
+  </ItemType>
+  <ItemType ID="24" Name="Potion">
+    <Class>Potion</Class>
+  </ItemType>
+  <ItemType ID="25" Name="Scroll">
+    <Class>Scroll</Class>
+    <SkillRequired>Law</SkillRequired>
+  </ItemType>
+  <ItemType ID="26" Name="Book">
+    <Class>Book</Class>
+    <SkillRequired>Law</SkillRequired>
+  </ItemType>
+</ItemTypeLibrary>

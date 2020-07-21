@@ -1,0 +1,130 @@
+<SpellMappings>
+
+	<!-- Icons for spell classes -->
+
+	<SpellClass Name="Fire" Icon="109" />	
+	<SpellClass Name="Cold" Icon="16" />
+	<SpellClass Name="Electrical" Icon = "266" />
+ 	<SpellClass Name="Mind" Icon="278" />
+ 	<SpellClass Name="Damage" Icon="84" />
+	<SpellClass Name="Element" Icon="116" /> 
+ 	<SpellClass Name="Kill" Icon="330" />
+	<SpellClass Name="Charm" Icon="401" />
+ 	<SpellClass Name="Bind" Icon="372" />
+ 	<SpellClass Name="Heal" Icon="182" />
+ 	<SpellClass Name="Movement" Icon="434" />
+ 	<SpellClass Name="Banish" Icon="194" />
+ 	<SpellClass Name="Dispell" Icon="1" />
+ 	<SpellClass Name="Resistant" Icon="320" />
+ 	<SpellClass Name="Visual" Icon="70" />
+ 	<SpellClass Name="Magical" Icon="428" />
+	<SpellClass Name="Location" Icon="357" />
+
+	<!-- Icons for individual spells, if not specified spell class icon will be used. -->
+		
+	<Spell ID="0" Name="Charm of Opening" />
+	<Spell ID="1" Name="Sleep" />
+	<Spell ID="74" Name="Set Sanctuary" />
+	<Spell ID="2" Name="Depth Perception" />
+	<Spell ID="3" Name="Soul Search" />
+	<Spell ID="4" Name="Find Direction" />
+	<Spell ID="5" Name="Retrieve Soul" />
+	<Spell ID="6" Name="Protection" />
+	<Spell ID="7" Name="Shock" />
+	<Spell ID="8" Name="Nerve Blank" />
+	<Spell ID="9" Name="Charm Insect" />
+	<Spell ID="10" Name="Detect Rock" />
+	<Spell ID="11" Name="Cause Wounds" />
+	<Spell ID="12" Name="Minor Heal" />
+	<Spell ID="13" Name="Poison" />
+	<Spell ID="14" Name="Charm Animal" />
+	<Spell ID="15" Name="Sight Veil" />
+	<Spell ID="16" Name="See Invisible" />
+	<Spell ID="17" Name="Feather Essense" />
+	<Spell ID="18" Name="Dazzle" />
+	<Spell ID="19" Name="Cure Poison" />
+	<Spell ID="20" Name="Dispell Undead" />
+	<Spell ID="21" Name="Resist Fire" />
+	<Spell ID="22" Name="Resist Draining" />
+	<Spell ID="23" Name="Charm Elemental" />
+	<Spell ID="80" Name="Resist Cold" />
+	<Spell ID="24" Name="Resist Poison" />
+	<Spell ID="25" Name="Resist Disease" />
+	<Spell ID="26" Name="Resist Paralysis" />
+	<Spell ID="28" Name="Light Spray" />
+	<Spell ID="29" Name="Heal" />
+	<Spell ID="30" Name="Dispell Elemental" />
+	<Spell ID="31" Name="Cause Heavy Wounds" />
+	<Spell ID="100" Name="Control" />
+	<Spell ID="32" Name="Charm Humanoid" />
+	<Spell ID="88" Name="Cure Paralysis" />
+	<Spell ID="33" Name="Cure Disease" />
+	<Spell ID="79" Name="Resist Stoning" />
+	<Spell ID="34" Name="Resist Magic" />
+	<Spell ID="77" Name="Cold Blast" />
+	<Spell ID="35" Name="Ice Spray" />
+	<Spell ID="36" Name="Power" />
+	<Spell ID="37" Name="Abolish Undead" />
+	<Spell ID="38" Name="Banish Devil" />
+	<Spell ID="39" Name="Charm Undead" />
+	<Spell ID="40" Name="Charm Giant" />
+	<Spell ID="41" Name="Flickering Doom" />
+	<Spell ID="42" Name="Ethereal Portal" />
+	<Spell ID="43" Name="Harm" />
+	<Spell ID="44" Name="Banish Demon" />
+	<Spell ID="45" Name="Summon Shade" />
+	<Spell ID="46" Name="Draining Touch" />
+	<Spell ID="95" Name="Control Animal" />
+	<Spell ID="47" Name="Charm Monster" />
+	<Spell ID="78" Name="Lightning Bolt" />
+	<Spell ID="48" Name="Thunder Bolt" />
+	<Spell ID="49" Name="Raise Dead" />
+	<Spell ID="50" Name="Restoration" />
+	<Spell ID="51" Name="Static Mesh" />
+	<Spell ID="52" Name="Cause Fatal Wounds" />
+	
+		<Spell ID="76" Name="Firebolt" 			Icon = "108"/>
+		<Spell ID="27" Name="Blue Flame" 		Icon = "16" />
+		<Spell ID="72" Name="Flamesheet" 		Icon = "288"/>
+		<Spell ID="53" Name="Pillar of Fire" 	Icon = "32" />
+		<Spell ID="63" Name="Sphere of Flames" 	Icon = "80" />
+		<Spell ID="64" Name="Burning Air" 		Icon = "128"/>
+	
+	<Spell ID="96" Name="Control Elemental" />
+	<Spell ID="101" Name="Restrain" />
+	<Spell ID="54" Name="Charm Dragon" />
+	<Spell ID="55" Name="Cause Death" />
+	<Spell ID="56" Name="Cure" />
+	<Spell ID="57" Name="Restore Flesh" />
+	<Spell ID="58" Name="Dominate Demon" />
+	<Spell ID="59" Name="Dominate Devil" />
+	<Spell ID="60" Name="Piercing Darkness" />
+	<Spell ID="61" Name="Displacement" />
+	<Spell ID="62" Name="Hail Storm" />
+	<Spell ID="65" Name="Electric Field" />
+	<Spell ID="92" Name="Mass Levitate" />
+	<Spell ID="66" Name="Teleport" />
+	<Spell ID="91" Name="Mass Heal" />
+	<Spell ID="67" Name="Resurrect" />
+	<Spell ID="68" Name="Word of Death" />
+	<Spell ID="69" Name="Precognative Death" />
+	<Spell ID="97" Name="Dominate Humanoid" />
+	<Spell ID="98" Name="Dominate Undead" />
+	<Spell ID="99" Name="Dominate Giant" />
+	<Spell ID="70" Name="Soul Entrapment" />
+	<Spell ID="71" Name="Field of Death" />
+	<Spell ID="73" Name="Arctic Storm" />
+	<Spell ID="75" Name="Sanctuary" />
+	<Spell ID="81" Name="Mental Resistance" />
+	<Spell ID="82" Name="Electrical Resistance" />
+	<Spell ID="83" Name="Resist Acidity" />
+	<Spell ID="84" Name="Leprosy" />
+	<Spell ID="87" Name="Acidic Spray" />
+	<Spell ID="85" Name="Flesh to Stone" />
+	<Spell ID="86" Name="Paralyzing Death" />
+	<Spell ID="93" Name="Mass Sight Veil" />
+	<Spell ID="94" Name="Fate" />
+	<Spell ID="102" Name="Domination" />
+	<Spell ID="103" Name="Life Domination" />
+	<Spell ID="104" Name="Shock Lance" />
+</SpellMappings>

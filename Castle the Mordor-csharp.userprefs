@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameTemplate.cs">
+    <Files>
+      <File FileName="Assets/Scripts/UI/Generic/GuiFillRect.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/Generic/GuiComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/Generic/GuiImage.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Util/Settings.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameTemplate.cs" Line="116" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

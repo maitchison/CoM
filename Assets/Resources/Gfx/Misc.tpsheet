@@ -1,0 +1,15 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Misc.png (256 x 128)
+# $TexturePacker:SmartUpdate:d08708746f217abd1c0e4eb58d806033:e3f369632fc892c5db9deb9b5b827a19:15ce12960fd52b917484ff418aa3e9ee$
+#
+
+ChestEmpty;2;81;45;45;0.5;0.5
+ChestMagic;49;81;45;45;0.5;0.5
+ChestMetal;96;81;45;45;0.5;0.5
+ChestWooden;143;81;45;45;0.5;0.5
+MonsterFrame;2;22;184;57;0.5434782608695652;0.4298245614035088

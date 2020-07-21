@@ -1,0 +1,121 @@
+<SpellClassLibrary Version="1.0">
+  <SpellClass ID="0" Name="Arcane">
+    <ShortName>Arcane</ShortName>
+    <SFXName>arcane</SFXName>
+    <Skill>Arcane Magic</Skill>
+    <IconID>26</IconID>
+    <Notes>Single target</Notes>
+  </SpellClass>
+  <SpellClass ID="1" Name="Fire">
+    <ShortName>Fire</ShortName>
+    <SFXName>fire</SFXName>
+    <Skill>Fire Magic</Skill>
+    <IconID>28</IconID>
+    <Notes>Multi group</Notes>
+  </SpellClass>
+  <SpellClass ID="2" Name="Water">
+    <ShortName>Water</ShortName>
+    <SFXName>water</SFXName>
+    <Skill>Water Magic</Skill>
+    <IconID>16</IconID>
+    <Notes>single group</Notes>
+  </SpellClass>
+  <SpellClass ID="3" Name="Electric">
+    <ShortName>Electric</ShortName>
+    <SFXName>electric</SFXName>
+    <Skill>Electric Magic</Skill>
+    <IconID>254</IconID>
+    <Notes>Multi group</Notes>
+  </SpellClass>
+  <SpellClass ID="4" Name="Life">
+    <ShortName>Life</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Life Magic</Skill>
+    <IconID>1</IconID>
+  </SpellClass>
+  <SpellClass ID="5" Name="Power">
+    <ShortName>Power</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Elemental Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="6" Name="Mind">
+    <ShortName>Mind</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Mind Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="7" Name="Damage">
+    <ShortName>Damage</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Mind Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="8" Name="Element">
+    <ShortName>Element</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Elemental Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="9" Name="Kill">
+    <ShortName>Kill</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Mind Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="10" Name="Charm">
+    <ShortName>Charm</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Mind Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="11" Name="Bind">
+    <ShortName>Bind</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Mind Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="12" Name="Heal">
+    <ShortName>Heal</ShortName>
+    <SFXName>heal</SFXName>
+    <Skill>Life Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="13" Name="Movement">
+    <ShortName>Move</ShortName>
+    <SFXName>warp3</SFXName>
+    <Skill>Light Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="14" Name="Banish">
+    <ShortName>Banish</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Life Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="15" Name="Dispel">
+    <ShortName>Dispel</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Life Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="16" Name="Resistant">
+    <ShortName>Resist</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Life Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="17" Name="Visual">
+    <ShortName>Visual</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Light Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="18" Name="Magical">
+    <ShortName>Magical</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Light Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="19" Name="Location">
+    <ShortName>Location</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Light Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="20" Name="Protection">
+    <ShortName>Protect</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Light Magic</Skill>
+  </SpellClass>
+  <SpellClass ID="21" Name="Summon">
+    <ShortName>Summon</ShortName>
+    <SFXName>generic</SFXName>
+    <Skill>Light Magic</Skill>
+  </SpellClass>
+</SpellClassLibrary>

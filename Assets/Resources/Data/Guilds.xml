@@ -1,0 +1,210 @@
+<GuildLibrary Version="1.0">
+  <Guild ID="0" Name="Adventurer">
+    <AvHitsPerLevel>5</AvHitsPerLevel>
+    <AvSpellsPerLevel>2</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>1</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>8</XPFactor>
+    <GoldFactor>3</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>0,0,0,0,0,0</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>3</AttackIncrease>
+    <DefenseIncrease>3</DefenseIncrease>
+    <ADInterval>2</ADInterval>
+    <ADLevelCap>200</ADLevelCap>
+    <SkillRate>0,0,0,0,0,0,0,0,0,4,2,0,0,0,0,1,1,1,1,0,1,1,1,1,1,1,0,0,1,2,1,0</SkillRate>
+    <AllowedRaces>Human, Elf, Giant, Halfling, Dwarf</AllowedRaces>
+  </Guild>
+  <Guild ID="1" Name="Explorer">
+    <AvHitsPerLevel>5</AvHitsPerLevel>
+    <AvSpellsPerLevel>3</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>2</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>10</XPFactor>
+    <GoldFactor>5</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>12,12,12,12,12,12</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>3.1</AttackIncrease>
+    <DefenseIncrease>3.2</DefenseIncrease>
+    <ADInterval>3</ADInterval>
+    <ADLevelCap>300</ADLevelCap>
+    <SkillRate>0,0,0,0,0,0,0,0,0,4,4,1,0,0,0,2,2,2,2,0,2,2,2,2,2,2,0,0,2,8,2,0</SkillRate>
+    <AllowedRaces>Human, Elf, Giant, Halfling, Dwarf</AllowedRaces>
+    <requiredGuildName>Adventurer</requiredGuildName>
+  </Guild>
+  <Guild ID="2" Name="Thief">
+    <AvHitsPerLevel>4</AvHitsPerLevel>
+    <AvSpellsPerLevel>2</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>2</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>15</XPFactor>
+    <GoldFactor>3</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>8,10,10,8,8,15</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>2.5</AttackIncrease>
+    <DefenseIncrease>2.5</DefenseIncrease>
+    <ADInterval>3</ADInterval>
+    <ADLevelCap>300</ADLevelCap>
+    <SkillRate>0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,4,0,2,4,0,2,0,0,0,0,0,0,0,4,4,1,0</SkillRate>
+    <AllowedRaces>Human, Elf, Halfling, Dwarf</AllowedRaces>
+  </Guild>
+  <Guild ID="4" Name="Assassin">
+    <AvHitsPerLevel>5</AvHitsPerLevel>
+    <AvSpellsPerLevel>3</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>2</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>21</XPFactor>
+    <GoldFactor>6</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>10,12,10,10,10,21</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>4</AttackIncrease>
+    <DefenseIncrease>3.5</DefenseIncrease>
+    <ADInterval>3.5</ADInterval>
+    <ADLevelCap>500</ADLevelCap>
+    <SkillRate>0,0,0,0,0,0,0,0,0,7,0,0,0,0,2,8,0,8,8,0,4,0,0,0,0,0,0,0,8,4,2,0</SkillRate>
+    <AllowedRaces>Human, Elf, Halfling</AllowedRaces>
+    <requiredGuildName>Thief</requiredGuildName>
+  </Guild>
+  <Guild ID="5" Name="Fighter">
+    <AvHitsPerLevel>6</AvHitsPerLevel>
+    <AvSpellsPerLevel>2</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>2</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>16</XPFactor>
+    <GoldFactor>1</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>15,8,8,12,8,8</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>3.3</AttackIncrease>
+    <DefenseIncrease>3.6</DefenseIncrease>
+    <ADInterval>4</ADInterval>
+    <ADLevelCap>450</ADLevelCap>
+    <SkillRate>0,0,0,0,0,0,0,0,0,6,6,6,0,0,0,0,4,4,4,0,4,4,4,4,4,4,0,0,0,2,1,0</SkillRate>
+    <AllowedRaces>Human, Elf, Giant, Halfling, Dwarf</AllowedRaces>
+  </Guild>
+  <Guild ID="6" Name="Paladin">
+    <AvHitsPerLevel>7</AvHitsPerLevel>
+    <AvSpellsPerLevel>3</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>2</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>19</XPFactor>
+    <GoldFactor>5</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>18,14,12,14,14,14</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>3.4</AttackIncrease>
+    <DefenseIncrease>3.8</DefenseIncrease>
+    <ADInterval>4</ADInterval>
+    <ADLevelCap>600</ADLevelCap>
+    <SkillRate>2,0,0,2,2,0,0,0,0,7,7,7,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,2,4,0</SkillRate>
+    <AllowedRaces>Human, Giant, Dwarf</AllowedRaces>
+    <requiredGuildName>Fighter</requiredGuildName>
+    <Notes>Fighter with basic spells</Notes>
+  </Guild>
+  <Guild ID="7" Name="Knight">
+    <AvHitsPerLevel>8</AvHitsPerLevel>
+    <AvSpellsPerLevel>2</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>2</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>21</XPFactor>
+    <GoldFactor>4</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>21,12,12,14,14,14</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>3.6</AttackIncrease>
+    <DefenseIncrease>4</DefenseIncrease>
+    <ADInterval>4</ADInterval>
+    <ADLevelCap>600</ADLevelCap>
+    <SkillRate>0,0,0,0,0,0,0,0,0,8,8,8,0,0,0,0,8,8,6,0,6,6,6,6,6,0,0,0,0,2,2,0</SkillRate>
+    <AllowedRaces>Human, Giant, Dwarf</AllowedRaces>
+    <requiredGuildName>Fighter</requiredGuildName>
+    <Notes>Heavy fighter</Notes>
+  </Guild>
+  <Guild ID="8" Name="Mage">
+    <AvHitsPerLevel>3</AvHitsPerLevel>
+    <AvSpellsPerLevel>2</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>2</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>27</XPFactor>
+    <GoldFactor>3</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>6,15,12,6,6,6</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>2</AttackIncrease>
+    <DefenseIncrease>3</DefenseIncrease>
+    <ADInterval>3.5</ADInterval>
+    <ADLevelCap>500</ADLevelCap>
+    <SkillRate>4,4,4,4,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,4,0,0,2,0,0,0,0,0,0,4,4,0</SkillRate>
+    <AllowedRaces>Human, Elf, Halfling, Dwarf</AllowedRaces>
+  </Guild>
+  <Guild ID="9" Name="Wizard">
+    <AvHitsPerLevel>5</AvHitsPerLevel>
+    <AvSpellsPerLevel>5</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>2</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>30</XPFactor>
+    <GoldFactor>10</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>10,21,15,10,10,18</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>1.3</AttackIncrease>
+    <DefenseIncrease>3</DefenseIncrease>
+    <ADInterval>4</ADInterval>
+    <ADLevelCap>750</ADLevelCap>
+    <SkillRate>6,6,6,8,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,4,0,0,4,0,0,0,0,0,0,6,8,0</SkillRate>
+    <AllowedRaces>Human, Elf, Halfling</AllowedRaces>
+    <requiredGuildName>Wizard</requiredGuildName>
+  </Guild>
+  <Guild ID="10" Name="Healer">
+    <AvHitsPerLevel>5</AvHitsPerLevel>
+    <AvSpellsPerLevel>4</AvSpellsPerLevel>
+    <MaxLevel>30</MaxLevel>
+    <HitsAtMaxLevel>2</HitsAtMaxLevel>
+    <SpellsAtMaxLevel>1</SpellsAtMaxLevel>
+    <LevelMod>1</LevelMod>
+    <XPFactor>32</XPFactor>
+    <GoldFactor>9</GoldFactor>
+    <JoinCost>1000000</JoinCost>
+    <RequiredStats>10,20,18,14,10,10</RequiredStats>
+    <AttackBase>10</AttackBase>
+    <DefenseBase>10</DefenseBase>
+    <AttackIncrease>1.1</AttackIncrease>
+    <DefenseIncrease>2.5</DefenseIncrease>
+    <ADInterval>4</ADInterval>
+    <ADLevelCap>750</ADLevelCap>
+    <SkillRate>0,2,0,4,8,0,0,0,0,2,0,0,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0,0,6,6,0</SkillRate>
+    <AllowedRaces>Human, Elf, Halfling</AllowedRaces>
+    <requiredGuildName>Healer</requiredGuildName>
+  </Guild>
+</GuildLibrary>

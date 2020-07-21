@@ -1,0 +1,87 @@
+<DamageTypeLibrary Version="1.0">
+  <DamageType ID="0" Name="Physical">
+    <SpriteName>Icons/Splat</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>0.75,0.75,0.75</Color>
+    <Verb>Hits</Verb>
+    <Notes>Basic physical damage</Notes>
+  </DamageType>
+  <DamageType ID="1" Name="Magic">
+    <SpriteName>Icons/SpellMagic</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0.5,1</Color>
+    <Verb>Zaps</Verb>
+  </DamageType>
+  <DamageType ID="2" Name="Fire">
+    <SpriteName>Icons/SpellFire</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0.5,0.5</Color>
+    <Verb>Burns</Verb>
+  </DamageType>
+  <DamageType ID="3" Name="Cold">
+    <SpriteName>Icons/SpellCold</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>0.5,0.5,1</Color>
+    <Verb>Freezes</Verb>
+  </DamageType>
+  <DamageType ID="4" Name="Electrical">
+    <SpriteName>Icons/SpellElectric</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,1,1</Color>
+    <Verb>Dazzels</Verb>
+  </DamageType>
+  <DamageType ID="5" Name="Mind">
+    <SpriteName>Icons/SpellFire</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0,0</Color>
+    <Verb>Confuses</Verb>
+  </DamageType>
+  <DamageType ID="6" Name="Disease">
+    <SpriteName>Icons/SpellFire</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0,0</Color>
+    <Verb>Rots</Verb>
+  </DamageType>
+  <DamageType ID="7" Name="Poison">
+    <SpriteName>Icons/SpellFire</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0,0</Color>
+    <Verb>Poisens</Verb>
+  </DamageType>
+  <DamageType ID="8" Name="Stone">
+    <SpriteName>Icons/SpellFire</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0,0</Color>
+    <Verb>Stones</Verb>
+  </DamageType>
+  <DamageType ID="9" Name="Paralysis">
+    <SpriteName>Icons/SpellFire</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0,0</Color>
+    <Verb>Inhibits</Verb>
+  </DamageType>
+  <DamageType ID="10" Name="Drain">
+    <SpriteName>Icons/SpellFire</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0,0</Color>
+    <Verb>Drains</Verb>
+  </DamageType>
+  <DamageType ID="11" Name="Acid">
+    <SpriteName>Icons/SpellFire</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0,0</Color>
+    <Verb>Melts</Verb>
+  </DamageType>
+  <DamageType ID="12" Name="Water">
+    <SpriteName>Icons/SpellFire</SpriteName>
+    <IsHealing>False</IsHealing>
+    <Color>1,0,0</Color>
+    <Verb>Drowns</Verb>
+  </DamageType>
+  <DamageType ID="13" Name="Healing">
+    <SpriteName>Icons/SpellLife</SpriteName>
+    <IsHealing>True</IsHealing>
+    <Color>0.5,1,0.5</Color>
+    <Verb>Heals</Verb>
+  </DamageType>
+</DamageTypeLibrary>

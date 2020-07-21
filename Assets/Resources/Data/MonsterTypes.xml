@@ -1,0 +1,612 @@
+<MonsterTypeLibrary Version="1.0">
+  <MonsterType ID="1" Name="Bear">
+    <Class>Animal</Class>
+    <AttackSound>attackbear</AttackSound>
+    <DieSound>diebear</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Scroll, Footwear, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="2" Name="Dog">
+    <Class>Animal</Class>
+    <AttackSound>attackdog</AttackSound>
+    <DieSound>diedog</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Scroll, Footwear</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="3" Name="Wolf">
+    <Class>Animal</Class>
+    <AttackSound>attackdog</AttackSound>
+    <DieSound>diedog</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Scroll, Footwear</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="42" Name="Bat">
+    <Class>Animal</Class>
+    <AttackSound>attackbat</AttackSound>
+    <DieSound>diebird</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Scroll, Footwear</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="43" Name="Bird">
+    <Class>Animal</Class>
+    <AttackSound>attackbird</AttackSound>
+    <DieSound>diebird</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Scroll, Footwear</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="4" Name="Fish">
+    <Class>Aquatic</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Weapon, Ring, Scroll, Dagger, Staff, Footwear, Staff</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="5" Name="Squid">
+    <Class>Aquatic</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Weapon, Ring, Scroll, Dagger, Staff, Footwear, Staff</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="6" Name="Frog">
+    <Class>Aquatic</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Scroll, Dagger, Footwear</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="50" Name="Lurker">
+    <Class>Aquatic</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Weapon, Ring, Scroll, Dagger, Staff, Footwear, Staff</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="51" Name="Keeper">
+    <Class>Aquatic</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Weapon, Ring, Scroll, Dagger, Staff, Footwear, Staff</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="55" Name="Jellyfish">
+    <Class>Aquatic</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Scroll, Dagger, Footwear</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="56" Name="Water Snake">
+    <Class>Aquatic</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Scroll, Dagger, Footwear</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="57" Name="Turtle">
+    <Class>Aquatic</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Scroll, Dagger, Footwear</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="7" Name="Scorpion">
+    <Class>Arachnid</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Armour, Helmet</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="8" Name="Insect">
+    <Class>Arachnid</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Cap, Cloth Armour, Belt</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="45" Name="Spider">
+    <Class>Arachnid</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Cap, Cloth Armour, Belt</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="10" Name="Demon">
+    <Class>Demon</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Weapon, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="11" Name="Devil">
+    <Class>Demon</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Weapon, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="29" Name="Imp">
+    <Class>Demon</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Weapon, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="12" Name="Small Dragon">
+    <Class>Dragon</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>100</DefaultBoxChance>
+    <DefaultChestChance>15</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>150</DefaultItemChance>
+    <DefaultLootList>Any, Wand, Necklace, Book</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="13" Name="Dragon">
+    <Class>Dragon</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>100</DefaultBoxChance>
+    <DefaultChestChance>25</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>150</DefaultItemChance>
+    <DefaultLootList>Any, Wand, Necklace, Book</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="14" Name="Ancient Dragon">
+    <Class>Dragon</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>100</DefaultBoxChance>
+    <DefaultChestChance>50</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>150</DefaultItemChance>
+    <DefaultLootList>Any, Wand, Necklace, Book</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="15" Name="Elemental">
+    <Class>Elemental</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Necklace, Potion, Scroll, Book, Ring, Staff, Wand</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="16" Name="Vortex">
+    <Class>Elemental</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Necklace, Potion, Scroll, Book, Ring, Staff, Wand</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="20" Name="Dark Elf">
+    <Class>Humanoid</Class>
+    <AttackSound>attackhumanoid</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Dagger, Belt, Light Armour, Cap, Gloves</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="21" Name="Goblin">
+    <Class>Humanoid</Class>
+    <AttackSound>attackhumanoid</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Dagger, Belt, Light Armour, Cap, Gloves</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="22" Name="Kobold">
+    <Class>Humanoid</Class>
+    <AttackSound>attackhumanoid</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Sword, Axe, Belt, Light Armour, Cap, Gloves</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="23" Name="Orc">
+    <Class>Humanoid</Class>
+    <AttackSound>attackorc</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Sword, Axe, Belt, Medium Armour, Helmet, Gauntlets</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="36" Name="Ogre">
+    <Class>Titan</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Sword, Hammer, Heavy Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="52" Name="Human">
+    <Class>Humanoid</Class>
+    <AttackSound>attackhumanoid</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Weapon, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="53" Name="Dwarf">
+    <Class>Humanoid</Class>
+    <AttackSound>attackhumanoid</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Axe, Belt, Medium Armour,</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="24" Name="Ant">
+    <Class>Insect</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Footwear, Book, Scroll</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="25" Name="Fly">
+    <Class>Insect</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Footwear, Book, Scroll</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="48" Name="Bug">
+    <Class>Insect</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Footwear, Book, Scroll</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="49" Name="Beetle">
+    <Class>Insect</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Footwear, Book, Scroll</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="17" Name="Caster">
+    <Class>Mage</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Staff, Wand, Cloth Armour, Ring, Cloak</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="44" Name="Plant">
+    <Class>Magical</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Ring, Weapons</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="9" Name="Dungeon Creeper">
+    <Class>Muck</Class>
+    <AttackSound>attackslime</AttackSound>
+    <DieSound>dieslime</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="26" Name="Ooze">
+    <Class>Muck</Class>
+    <AttackSound>attackslime</AttackSound>
+    <DieSound>dieslime</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="27" Name="Slime">
+    <Class>Muck</Class>
+    <AttackSound>attackslime</AttackSound>
+    <DieSound>dieslime</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="28" Name="Slug">
+    <Class>Muck</Class>
+    <AttackSound>attackslime</AttackSound>
+    <DieSound>dieslime</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Potion, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="30" Name="Mythical">
+    <Class>Mythical</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>75</DefaultBoxChance>
+    <DefaultChestChance>15</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Weapons</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="47" Name="Gargoyle">
+    <Class>Mythical</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>75</DefaultBoxChance>
+    <DefaultChestChance>25</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Heavy Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="31" Name="Lizard">
+    <Class>Reptile</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Medium Armour, Axe, Cloak, Footwear, Shield</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="32" Name="Reptile">
+    <Class>Reptile</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Medium Armour, Axe, Cloak, Footwear, Shield</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="33" Name="Snake">
+    <Class>Reptile</Class>
+    <AttackSound>attacksnake</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Medium Armour, Axe, Cloak, Footwear, Shield</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="34" Name="Rat">
+    <Class>Rodent</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Ring, Scroll, Potion</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="19" Name="Rouge">
+    <Class>Thief</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Dagger, Belt, Light Armour, Cap, Gloves</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="35" Name="Giant">
+    <Class>Titan</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>75</DefaultItemChance>
+    <DefaultLootList>Axe, Hammer, Heavy Armour, Gauntlets, Footwear</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="37" Name="Mummy">
+    <Class>Undead</Class>
+    <AttackSound>attackzombie</AttackSound>
+    <DieSound>diezombie</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Book, Scroll, Sword, Mace</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="38" Name="Skeleton">
+    <Class>Undead</Class>
+    <AttackSound>attackzombie</AttackSound>
+    <DieSound>diezombie</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Book, Scroll, Sword, Mace</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="39" Name="Undead">
+    <Class>Undead</Class>
+    <AttackSound>attackzombie</AttackSound>
+    <DieSound>diezombie</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Book, Scroll, Sword, Mace</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="40" Name="Vampire">
+    <Class>Undead</Class>
+    <AttackSound>attackzombie</AttackSound>
+    <DieSound>diezombie</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Book, Scroll, Sword, Mace</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="41" Name="Wraith">
+    <Class>Undead</Class>
+    <AttackSound>attackzombie</AttackSound>
+    <DieSound>diezombie</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Book, Scroll, Sword, Mace</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="46" Name="Zombie">
+    <Class>Undead</Class>
+    <AttackSound>attackzombie</AttackSound>
+    <DieSound>diezombie</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Book, Scroll, Sword, Mace</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="54" Name="Spectre">
+    <Class>Undead</Class>
+    <AttackSound>attackzombie</AttackSound>
+    <DieSound>diezombie</DieSound>
+    <DefaultBoxChance>50</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>50</DefaultItemChance>
+    <DefaultLootList>Book, Scroll, Sword, Mace</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="18" Name="Mercenary">
+    <Class>Warrior</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>30</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>85</DefaultItemChance>
+    <DefaultLootList>Weapons, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="60" Name="Griffin">
+    <Class>Mythical</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>90</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>100</DefaultItemChance>
+    <DefaultLootList>Weapons, Staff, Wand, Ring, Necklaces</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="61" Name="Golem">
+    <Class>Mythical</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>90</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>100</DefaultItemChance>
+    <DefaultLootList>Weapons, Hammer, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="62" Name="Hydra">
+    <Class>Mythical</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>90</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>100</DefaultItemChance>
+    <DefaultLootList>Weapons, Hammer, Armour</DefaultLootList>
+  </MonsterType>
+  <MonsterType ID="63" Name="Genie">
+    <Class>Mythical</Class>
+    <AttackSound>attackbug</AttackSound>
+    <DieSound>dieorc</DieSound>
+    <DefaultBoxChance>90</DefaultBoxChance>
+    <DefaultChestChance>0</DefaultChestChance>
+    <DefaultLockedChance>0</DefaultLockedChance>
+    <DefaultItemChance>100</DefaultItemChance>
+    <DefaultLootList>Weapons, Hammer, Armour</DefaultLootList>
+  </MonsterType>
+</MonsterTypeLibrary>

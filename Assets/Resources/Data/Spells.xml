@@ -1,0 +1,293 @@
+<SpellLibrary Version="1.0">
+  <Spell ID="0" Name="Magic Missile">
+    <Class>Arcane</Class>
+    <SpellLevel>10</SpellLevel>
+    <SpellTarget>Single</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>1</MaxTargetsPerGroup>
+    <DamageBase>5</DamageBase>
+    <DamageMod>1</DamageMod>
+    <DamageType>Magic</DamageType>
+    <RequiredStats>0,10,10,0,0,0</RequiredStats>
+    <SpellCost>4</SpellCost>
+    <IconID>105</IconID>
+    <Effect>Damage</Effect>
+    <Notes>Base spell for many casters</Notes>
+  </Spell>
+  <Spell ID="5" Name="Flame Dart">
+    <Class>Fire</Class>
+    <SpellLevel>12</SpellLevel>
+    <SpellTarget>Single</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>4</MaxTargetsPerGroup>
+    <DamageBase>7</DamageBase>
+    <DamageMod>2</DamageMod>
+    <DamageType>Fire</DamageType>
+    <RequiredStats>0,12,12,0,0,0</RequiredStats>
+    <SpellCost>5</SpellCost>
+    <IconID>108</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="6" Name="Fire Strike">
+    <Class>Fire</Class>
+    <SpellLevel>18</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>4</MaxTargetsPerGroup>
+    <DamageBase>14</DamageBase>
+    <DamageMod>6</DamageMod>
+    <DamageType>Fire</DamageType>
+    <RequiredStats>0,15,15,0,0,0</RequiredStats>
+    <SpellCost>25</SpellCost>
+    <IconID>28</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="7" Name="Fire Storm">
+    <Class>Fire</Class>
+    <SpellLevel>24</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <DamageBase>21</DamageBase>
+    <DamageMod>12</DamageMod>
+    <DamageType>Fire</DamageType>
+    <RequiredStats>0,18,18,0,0,0</RequiredStats>
+    <SpellCost>51</SpellCost>
+    <IconID>88</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="8" Name="Inferno">
+    <Class>Fire</Class>
+    <SpellLevel>30</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <DamageBase>32</DamageBase>
+    <DamageMod>17</DamageMod>
+    <DamageType>Fire</DamageType>
+    <RequiredStats>0,21,21,0,0,0</RequiredStats>
+    <SpellCost>120</SpellCost>
+    <IconID>288</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="10" Name="Ice Bolt">
+    <Class>Water</Class>
+    <SpellLevel>14</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <DamageBase>5</DamageBase>
+    <DamageMod>2</DamageMod>
+    <DamageType>Cold</DamageType>
+    <RequiredStats>0,12,12,0,0,0</RequiredStats>
+    <SpellCost>9</SpellCost>
+    <IconID>199</IconID>
+    <Effect>Damage</Effect>
+    <Description>A cold blast</Description>
+  </Spell>
+  <Spell ID="11" Name="Frost Ball">
+    <Class>Water</Class>
+    <SpellLevel>20</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <DamageBase>10</DamageBase>
+    <DamageMod>5</DamageMod>
+    <DamageType>Cold</DamageType>
+    <RequiredStats>0,15,15,0,0,0</RequiredStats>
+    <SpellCost>35</SpellCost>
+    <IconID>112</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="12" Name="Ice Storm">
+    <Class>Water</Class>
+    <SpellLevel>26</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <DamageBase>17</DamageBase>
+    <DamageMod>10</DamageMod>
+    <DamageType>Cold</DamageType>
+    <RequiredStats>0,18,18,0,0,0</RequiredStats>
+    <SpellCost>70</SpellCost>
+    <IconID>201</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="13" Name="Blizzard">
+    <Class>Water</Class>
+    <SpellLevel>32</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <DamageBase>21</DamageBase>
+    <DamageMod>15</DamageMod>
+    <DamageType>Cold</DamageType>
+    <RequiredStats>0,21,21,0,0,0</RequiredStats>
+    <SpellCost>150</SpellCost>
+    <IconID>285</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="16" Name="Shock">
+    <Class>Electric</Class>
+    <SpellLevel>16</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <DamageBase>6</DamageBase>
+    <DamageMod>2</DamageMod>
+    <DamageType>Electrical</DamageType>
+    <RequiredStats>0,12,12,0,0,0</RequiredStats>
+    <SpellCost>11</SpellCost>
+    <IconID>253</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="17" Name="Chain Lightning">
+    <Class>Electric</Class>
+    <SpellLevel>22</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <DamageBase>12</DamageBase>
+    <DamageMod>5</DamageMod>
+    <DamageType>Electrical</DamageType>
+    <RequiredStats>0,15,15,0,0,0</RequiredStats>
+    <SpellCost>45</SpellCost>
+    <IconID>257</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="18" Name="Electric Storm">
+    <Class>Electric</Class>
+    <SpellLevel>28</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <DamageBase>19</DamageBase>
+    <DamageMod>8</DamageMod>
+    <DamageType>Electrical</DamageType>
+    <RequiredStats>0,18,18,0,0,0</RequiredStats>
+    <SpellCost>90</SpellCost>
+    <IconID>252</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="19" Name="Static Lighting">
+    <Class>Electric</Class>
+    <SpellLevel>34</SpellLevel>
+    <SpellTarget>Area</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <DamageBase>25</DamageBase>
+    <DamageMod>13</DamageMod>
+    <DamageType>Electrical</DamageType>
+    <RequiredStats>0,21,21,0,0,0</RequiredStats>
+    <SpellCost>250</SpellCost>
+    <IconID>264</IconID>
+    <Effect>Damage</Effect>
+  </Spell>
+  <Spell ID="20" Name="Minor Heal">
+    <Class>Heal</Class>
+    <SpellLevel>1</SpellLevel>
+    <SpellTarget>Character</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>1</MaxTargetsPerGroup>
+    <DamageBase>1</DamageBase>
+    <DamageMod>5</DamageMod>
+    <DamageType>Healing</DamageType>
+    <RequiredStats>0,1,1,0,0,0</RequiredStats>
+    <SpellCost>1</SpellCost>
+    <IconID>181</IconID>
+    <Effect>Heal</Effect>
+  </Spell>
+  <Spell ID="21" Name="Mass Heal">
+    <Class>Heal</Class>
+    <SpellLevel>1</SpellLevel>
+    <SpellTarget>Party</SpellTarget>
+    <NonCombatSpell>true</NonCombatSpell>
+    <MaxTargetsPerGroup>4</MaxTargetsPerGroup>
+    <DamageBase>1</DamageBase>
+    <DamageMod>5</DamageMod>
+    <DamageType>Healing</DamageType>
+    <RequiredStats>0,1,1,0,0,0</RequiredStats>
+    <SpellCost>1</SpellCost>
+    <IconID>184</IconID>
+    <Effect>Heal</Effect>
+  </Spell>
+  <Spell ID="22" Name="Phase Door">
+    <Class>Movement</Class>
+    <SpellLevel>1</SpellLevel>
+    <SpellTarget>None</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <RequiredStats>0,1,1,0,0,0</RequiredStats>
+    <SpellCost>1</SpellCost>
+    <IconID>105</IconID>
+    <Description>Teleports party randomly to a nearby location</Description>
+  </Spell>
+  <Spell ID="23" Name="Teleport">
+    <Class>Movement</Class>
+    <SpellLevel>1</SpellLevel>
+    <SpellTarget>None</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <RequiredStats>0,1,1,0,0,0</RequiredStats>
+    <SpellCost>1</SpellCost>
+    <IconID>105</IconID>
+    <Description>Teleports party to a random location on the current map.</Description>
+  </Spell>
+  <Spell ID="24" Name="Magic Door">
+    <Class>Movement</Class>
+    <SpellLevel>1</SpellLevel>
+    <SpellTarget>None</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <RequiredStats>0,1,1,0,0,0</RequiredStats>
+    <SpellCost>1</SpellCost>
+    <IconID>105</IconID>
+    <Description>Moves party through a wall</Description>
+  </Spell>
+  <Spell ID="25" Name="Resist Fire">
+    <Class>Resistant</Class>
+    <SpellLevel>1</SpellLevel>
+    <SpellTarget>Party</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <RequiredStats>0,1,1,0,0,0</RequiredStats>
+    <SpellCost>1</SpellCost>
+    <IconID>105</IconID>
+    <Effect>Resist</Effect>
+    <EffectValue>Fire</EffectValue>
+  </Spell>
+  <Spell ID="26" Name="Mind Strike">
+    <Class>Kill</Class>
+    <SpellLevel>1</SpellLevel>
+    <SpellTarget>Group</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <RequiredStats>0,1,1,0,0,0</RequiredStats>
+    <SpellCost>1</SpellCost>
+    <IconID>105</IconID>
+    <Effect>Kill</Effect>
+  </Spell>
+  <Spell ID="27" Name="Charm Spider">
+    <Class>Charm</Class>
+    <SpellLevel>1</SpellLevel>
+    <SpellTarget>Group</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <RequiredStats>0,1,1,0,0,0</RequiredStats>
+    <SpellCost>1</SpellCost>
+    <IconID>105</IconID>
+    <Effect>Charm</Effect>
+    <EffectValue>Spider</EffectValue>
+  </Spell>
+  <Spell ID="28" Name="Self Heal">
+    <Class>Heal</Class>
+    <SpellLevel>1</SpellLevel>
+    <SpellTarget>Caster</SpellTarget>
+    <NonCombatSpell>false</NonCombatSpell>
+    <MaxTargetsPerGroup>2</MaxTargetsPerGroup>
+    <DamageBase>1</DamageBase>
+    <DamageMod>5</DamageMod>
+    <DamageType>Healing</DamageType>
+    <RequiredStats>0,1,1,0,0,0</RequiredStats>
+    <SpellCost>1</SpellCost>
+    <IconID>105</IconID>
+    <Effect>Heal</Effect>
+  </Spell>
+</SpellLibrary>

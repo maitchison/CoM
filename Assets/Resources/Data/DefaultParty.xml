@@ -1,0 +1,14 @@
+<PartyLibrary Version="1.0">
+  <Party ID="0" Name="Party">
+    <Members>
+      <Character>9</Character>
+      <Character>6</Character>
+      <Character>7</Character>
+      <Character>8</Character>
+    </Members>
+    <LocationX>9</LocationX>
+    <LocationY>11</LocationY>
+    <Depth>0</Depth>
+    <Facing>180</Facing>
+  </Party>
+</PartyLibrary>
